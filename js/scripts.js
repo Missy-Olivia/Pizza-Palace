@@ -56,3 +56,26 @@ Pizza.prototype.cost = function(pieSize, crustType, topkind, pizzaNumber) {
       alert("Invalid order!");
     }
 };
+$("form#placeorder").submit(function(event) {
+    event.preventDefault();
+
+   
+    var pieSize = new Array();$("input:checkbox[name='size']:checked").each(function(){
+        pieSize.push(this.value)
+    });
+    var crustType =new Array(); $("input:checkbox[name='crust']:checked").each(function(){
+        crustType.push(this.value)
+    });
+    var topkind =new Array(); $("input:checkbox[name='toppings']:checked").each(function(){
+        topkind.push(this.value)
+    });
+    var pizzaNumber = $("#pizzanumber").val();
+
+  $("#placeorder").click(function(event){
+    var  pizzaOrder= new Pizza(pieSize,crustType,topkind);
+    var finalCost = pizzaOrder.cost(pieSize,crustType,topkind);
+
+   $("#result").append("your total is" + finalCost + "Rwf.");
+   event.preventDefault();
+  });
+});
