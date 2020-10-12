@@ -35,3 +35,24 @@ function Pizza(pieSize,crustType,topkind, pizzaNumber){
     this.topkind = topkind;
     this.pizzaNumber = pizzaNumber
 };
+Pizza.prototype.cost = function(pieSize, crustType, topkind, pizzaNumber) {
+    var priceTotal = 0;
+    var toppings = ["pepperoni", "Sausage", "Bacon", "Mushrooms", "Black Olives", "Cheese", "Pineapple"];
+    var crust = ["Crispy", "Stuffed", "Gluten-free"]
+    for (i = 0; i < toppingsLoop.length; i++) {
+      if (toppingOne === toppings[i]) {
+        priceTotal += 500 * pizzaNumber}
+      if (crustType === crust[i]) {
+        priceTotal += 500 * pizzaNumber }
+    }
+  
+    if (sizePie === "small") {
+      priceTotal += 3000 * pizzaNumber
+    } else if (sizePie === "medium") {
+      priceTotal += 5000 * pizzaNumber
+    } else if (sizePie === "large") {
+      priceTotal += 8000 * pizzaNumber
+    } else {
+      alert("Invalid order!");
+    }
+};
