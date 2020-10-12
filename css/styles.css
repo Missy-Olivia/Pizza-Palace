@@ -1,0 +1,7 @@
+html,body{
+    text-align: center;
+    height:180%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../css/img/p3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
