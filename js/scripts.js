@@ -27,3 +27,11 @@ $("#checkout").click(function(event){
         $("#summary").append("Toppings:" + topkind + "<br>")
         $("#summary").append("Pizza number:" + pizzaNumber + "<br>")
     });
+    //back-end
+    //creating constructors
+function Pizza(pieSize,crustType,topkind, pizzaNumber){
+    this.pieSize = pieSize;
+    this.crustType = crustType;
+    this.topkind = topkind;
+    this.pizzaNumber = pizzaNumber
+};
