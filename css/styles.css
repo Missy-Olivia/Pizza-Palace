@@ -36,3 +36,18 @@ img{
     cursor: pointer;
    filter: invert(.5);
 }
+.choose{
+    color: orangered;
+    text-align: center;
+    display:none;
+    padding: 20px;
+    font-size: 1.5em; 
+    border: 1px solid rgb(196, 114, 84);
+    background-color: rgba(196, 114, 84, 0.171);
+}
+.choose h2{
+    text-decoration: underline;
+    color: rgb(212, 132, 103);
+    text-transform: uppercase;
+
+}
