@@ -17,3 +17,22 @@ img{
     border-radius: 100%; 
     filter: sepia(.7);
 }
+#order{
+    color: orangered;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;  
+    border: 1px solid orangered;
+    text-align: center;
+    background-color: rgba(241, 159, 129, 0.589);
+}
+.order{
+    padding: 15%;
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+}
+#order:hover{
+    cursor: pointer;
+   filter: invert(.5);
+}
