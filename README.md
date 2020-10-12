@@ -10,7 +10,7 @@ Ngabire Olivia Missy [https://github.com/Missy-Olivia]
 * JQuery
 * Javascript
 ## Link
-
+https://missy-olivia.github.io/Pizza-Palace/index.html
 ## Lincense
 MIT 
 Copyright (c) {2020} 
