@@ -5,3 +5,15 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;    
 }
+.intro{
+    background-color: rgb(226, 182, 166);
+    color:orangered;
+    font-size: 2em;  
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    border-radius: 100%; 
+    filter: sepia(.7);
+}
